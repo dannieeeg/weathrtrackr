@@ -1,8 +1,8 @@
 # weathrtrackr
-Local Weather App Project
-This project is part of the freeCodeCamp curriculum, which helps you to learn how to code through online courses, projects and also provides interview preparation.
+Local Weather App Project<br>
 
-Project Guidelines
+
+Project Guidelines<br>
 The aim for this project was to build a web app that shows the user their local weather. FreeCodeCamp allowed us to use whichever libraries or APIs that we required to solve this challenge. The design and UI was up to us to create.
 To complete the project, the below user stories needed to be fulfilled:
 
