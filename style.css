@@ -1,0 +1,100 @@
+h1 , h2, h3, span {
+	margin: 0;
+}
+
+h1 {
+  
+	font-size: 16rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+body {
+  background-color: #fff;
+}
+span {
+	font-size: 6rem;
+	font-weight: 600;
+}
+
+.container {
+ 	background-color: honeydew; 
+ 	border-radius: 32px 14px;
+	max-width: 550px;
+	height: 100vh;
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 20% 80%;
+	padding: 25px 5px;
+}
+
+.degrees {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	margin-left: 2rem;
+}
+
+img {
+	width: 80px;
+	filter: grayscale(100%);
+}
+
+@media (min-width: 476px) and (max-width: 767px) {
+	 h1 {
+	  font-size: 2.7em;
+	}
+	 h2 {
+		font-size: 1.2em;
+	}
+	span {
+		font-size: 5rem;
+		font-weight: 500;
+	}
+  }
+  @media (min-width: 350px) and (max-width: 475px) {
+	 h1 {
+	  font-size: 7.1em;
+	  padding-top: 4px;
+	}
+	 h2 {
+	font-size: 4em;
+	}
+	span {
+		font-size: 4rem;
+		font-weight: 400;
+	}
+  }
+  @media (min-width: 290px) and (max-width: 349px) {
+	 h1 {
+	  font-size: 1.6em;
+	  padding-top: 8px;
+	}
+	span {
+		font-size: 3rem;
+		font-weight: 300;
+	}
+  }
+  @media (max-width: 289px) {
+	 h1 h2{
+	  font-size: 1.26em;
+	  text-shadow: none;
+	}
+	span {
+		font-size: 2rem;
+		font-weight: 200;
+	}
+  }
+  /* Decrease the brand name padding for sm screens */
+  @media (max-width: 319px) {
+	.navbar-brand {
+	  padding-left: 15px;
+	}
+  }
