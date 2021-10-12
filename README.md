@@ -10,7 +10,10 @@ I can see the weather in my current location
 There is a weather icon, or background image, showing what the weather is like in more detail (Example: sunny, snowy, rain ..etc)
 
 
-Made with
-HTML, CSS, JavaScript & JQuery
+Made with:
+# html
+# css
+# javascript
+# jquery
 Introducing myself to APIs and how they work with injecting into basic websites. 
 ![Screenshot 2021-10-12 100255](https://user-images.githubusercontent.com/78777206/136981170-d5400b37-660f-471e-8a4c-41125b2733d6.png)
